@@ -1,0 +1,6 @@
+version: '2'
+services:
+    angular-service:
+        build: .
+        ports:
+            - "90:80"
